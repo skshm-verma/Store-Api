@@ -28,8 +28,4 @@ app.use(notFoundMiddleware);
 app.use(errorMiddleware);
 
 const port = process.env.PORT || 9000;
-const start = () => {
-    app.listen(port, console.log(`Server is listening at port ${port}`))
-}
-
-start();
+app.listen(port, console.log(`Server is listening at port ${port}`))
