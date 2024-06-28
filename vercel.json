@@ -3,7 +3,7 @@
     "name" : "Store-Api",
     "builds": [
       {
-        "src": "app.js",
+        "src": "index.js",
         "use": "@vercel/node"
       }
     ],
